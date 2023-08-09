@@ -20,10 +20,10 @@ export default function App() {
 
   return (
     <>
-      <div className="grid grid-rows-[auto_80%_auto] justify-center gap-4 bg-slate-400 h-screen p-4">
+      <div className="grid grid-rows-[auto_80%_auto] justify-center gap-4 bg-[#48cae4] h-screen p-4">
         <h1 className=" text-4xl text-center">{title}</h1>
-        <img className="rounded-xl shadow-2xl h-full " src={link} />
-        <button className="bg-red-300 border p-2 rounded-xl" onClick={image}>
+        <img className="rounded shadow-2xl h-full " src={link} />
+        <button className="bg-[#0096c7] p-2 rounded text-xl" onClick={image}>
           Trocar
         </button>
       </div>
